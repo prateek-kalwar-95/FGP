@@ -1,0 +1,123 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"poppins",sans-serif;
+} 
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: white;
+}
+.login-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 480px;
+    height: 480px;
+    padding: 30pxs;
+    background-color: rgb(183, 214, 219);
+    border-radius: 5vh;
+}
+.signup-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 480px;
+    height: 480px;
+    padding: 30pxs;
+    background-color: rgb(183, 214, 219);
+    border-radius: 5vh;
+}
+.login-header {
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+.signup-header{
+    text-align: center;
+    margin: 20px 0 40px 0;
+}
+
+.login-header header{
+    color: #333;
+    font-size: 30px;
+    font-weight: 600;
+}
+.signup-header header{
+    color: #333;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.input-box .input-field{
+    width: 90%;
+    height: 60px;
+    font-size: 17px;
+    padding: 0 25px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.05);
+    outline: none;
+    transition: 30ms;
+
+}
+
+::placeholder{
+    font-weight: 500;
+    color: #222;
+}
+.input-field:focus{
+    width: 95%;
+}  
+
+.forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    color: #555;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.input-submit{
+    position:relative;
+}
+
+.submit-btn{
+    width: 90%;
+    height: 60px;
+    background-color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+}
+.input-submit label{
+    position: absolute;
+    top: 45%;
+    left:45% ;
+    color: #fff;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    cursor: pointer;
+}
+.submit-btn:hover{ 
+    background: gray;
+    transform: scale(1,1);
+}
+.sign-up-link{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.sign-up-link a{
+    color: #000;
+    font-weight: 600;
+}
+
+
